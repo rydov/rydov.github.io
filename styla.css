@@ -285,7 +285,7 @@ nav {
   }
 
   .resume {
-    font-size: 15px !important;
+    font-size: 13px !important;
   }
 
   .menu {
@@ -299,6 +299,7 @@ nav {
 
   nav ul li a {
     padding: 0px 10px 0px 10px !important;
+    font-size: 13px !important;
   }
 
   .resume {
@@ -306,27 +307,27 @@ nav {
   }
 
   .content h2 {
-    font-size: 20px !important;
+    font-size: 15px !important;
   }
   .content h1 {
-    font-size: 25px !important;
+    font-size: 17px !important;
   }
 
   .content {
-    margin-top: -10px !important;
+    margin-top: -15px !important;
   }
 
   .about h2 {
-    font-size: 15px !important;
-    width: 300px;
+    font-size: 13px !important;
+    width: 280px;
   }
 
   .nama {
-    margin-top: 30px !important;
+    margin-top: 25px !important;
   }
 
   .tentang {
-    margin: 30px !important;
+    margin: 25px !important;
   }
 }
 
@@ -445,7 +446,7 @@ svg {
 @media screen and (max-width: 414px) {
   svg {
     width: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
   }
 
@@ -454,8 +455,8 @@ svg {
   }
 
   .checkout {
-    margin-left: 80px !important;
-    margin-top: -150px !important;
+    margin-left: 75px !important;
+    margin-top: -210px !important;
   }
 
   .checkout a {
@@ -481,11 +482,8 @@ svg {
 }
 
 @media screen and (max-width: 414px) {
-  .email {
-    rotate: inherit;
-    font-size: 1px;
-    border: 1px solid wheat;
-    margin-top: 10px;
+  .aboutme {
+    margin-top: -100px !important;
   }
 }
 
@@ -538,11 +536,11 @@ svg {
 
 @media screen and (max-width: 414px) {
   .judul h4 {
-    font-size: 18px !important;
+    font-size: 15px !important;
   }
 
   .title h2 {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 
   .statment {
@@ -551,8 +549,8 @@ svg {
   }
 
   .saya {
-    margin: 20px;
-    width: 355px;
+    margin: 10px;
+    width: 320px;
     text-align: center;
   }
 
@@ -562,6 +560,7 @@ svg {
 
   .isi {
     justify-content: center;
+    font-size: 15px !important;
   }
 }
 
@@ -669,11 +668,11 @@ input:hover {
   }
 
   input {
-    width: 160px;
+    width: 137px;
   }
 
   .foremail input {
-    width: 350px !important;
+    width: 305px !important;
   }
 
   button {
@@ -682,7 +681,7 @@ input:hover {
   }
 
   textarea {
-    width: 350px;
+    width: 305px;
   }
 }
 
