@@ -257,7 +257,7 @@ body {
   margin: auto;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   .container {
     width: 100%;
   }
@@ -285,7 +285,7 @@ nav {
   position: fixed;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   nav {
     position: relative;
   }
@@ -450,7 +450,7 @@ svg {
   fill: white;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   svg {
     width: 30px;
     margin-top: 20px;
@@ -488,7 +488,7 @@ svg {
   display: flex;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   .aboutme {
     margin-top: -100px !important;
   }
@@ -560,7 +560,7 @@ svg {
   margin-left: 30px;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   .judul h4 {
     font-size: 15px !important;
   }
@@ -677,7 +677,7 @@ input:hover {
   outline: 1px solid turquoise;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   .foremail,
   .pesan {
     margin-left: 10px !important;
@@ -855,7 +855,7 @@ button:hover {
   transition: 1s;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   .ju {
     margin-top: 500px;
   }
@@ -889,7 +889,7 @@ canvas {
   width: 100%;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 520px) {
   .ry {
     font-size: 10px !important;
   }
