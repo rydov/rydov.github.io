@@ -296,7 +296,6 @@ nav {
 
   .menu {
     margin-right: 30px;
-    margin-top: 10px;
   }
 
   .logo a {
@@ -313,10 +312,10 @@ nav {
   }
 
   .content h2 {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
   .content h1 {
-    font-size: 17px !important;
+    font-size: 20px !important;
   }
 
   .content {
@@ -324,8 +323,8 @@ nav {
   }
 
   .about h2 {
-    font-size: 13px !important;
-    width: 280px;
+    font-size: 15px !important;
+    width: 400px;
   }
 
   .nama {
@@ -463,12 +462,12 @@ svg {
 
   .checkout {
     margin-left: 75px !important;
-    margin-top: -210px !important;
+    margin-top: -200px !important;
   }
 
   .checkout a {
     padding: 10px !important;
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -576,7 +575,7 @@ svg {
 
   .saya {
     margin: 10px;
-    width: 340px;
+    width: 540px;
     text-align: center;
   }
 
@@ -698,20 +697,20 @@ input:hover {
   }
 
   input {
-    width: 147px;
+    width: 248px;
   }
 
   .foremail input {
-    width: 327px !important;
+    width: 528px !important;
   }
 
   button {
     margin-left: 10px !important;
-    padding: 5px !important;
+    padding: 7px !important;
   }
 
   textarea {
-    width: 327px;
+    width: 528px;
   }
 }
 
@@ -899,7 +898,7 @@ canvas {
   }
 
   .ju {
-    margin-top: 300px;
+    margin-top: 200px !important;
   }
 
   .partn {
