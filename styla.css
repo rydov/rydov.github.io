@@ -257,6 +257,12 @@ body {
   margin: auto;
 }
 
+@media screen and (max-width: 415px) {
+  .container {
+    width: 100%;
+  }
+}
+
 .logo a {
   text-decoration: none;
   color: white;
@@ -279,7 +285,7 @@ nav {
   position: fixed;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   nav {
     position: relative;
   }
@@ -327,7 +333,8 @@ nav {
   }
 
   .tentang {
-    margin: 25px !important;
+    margin: 0px !important;
+    margin-top: 30px !important;
   }
 }
 
@@ -443,7 +450,7 @@ svg {
   fill: white;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   svg {
     width: 30px;
     margin-top: 20px;
@@ -481,9 +488,28 @@ svg {
   display: flex;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .aboutme {
     margin-top: -100px !important;
+  }
+
+  .content {
+    width: auto;
+  }
+
+  .tentang {
+    width: auto;
+  }
+
+  .about {
+    width: auto;
+  }
+
+  .email {
+    rotate: inherit;
+    height: inherit;
+    margin-top: 0px;
+    border: 1px solid white;
   }
 }
 
@@ -534,7 +560,7 @@ svg {
   margin-left: 30px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .judul h4 {
     font-size: 15px !important;
   }
@@ -550,17 +576,21 @@ svg {
 
   .saya {
     margin: 10px;
-    width: 320px;
+    width: 340px;
     text-align: center;
   }
 
   .saya p {
-    font-size: 15px !important;
+    font-size: 13px !important;
   }
 
   .isi {
     justify-content: center;
     font-size: 15px !important;
+  }
+
+  .levell {
+    font-size: 13px !important;
   }
 }
 
@@ -647,7 +677,7 @@ input:hover {
   outline: 1px solid turquoise;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .foremail,
   .pesan {
     margin-left: 10px !important;
@@ -668,11 +698,11 @@ input:hover {
   }
 
   input {
-    width: 137px;
+    width: 147px;
   }
 
   .foremail input {
-    width: 305px !important;
+    width: 327px !important;
   }
 
   button {
@@ -681,7 +711,7 @@ input:hover {
   }
 
   textarea {
-    width: 305px;
+    width: 327px;
   }
 }
 
@@ -825,7 +855,7 @@ button:hover {
   transition: 1s;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .ju {
     margin-top: 500px;
   }
@@ -859,9 +889,24 @@ canvas {
   width: 100%;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .ry {
     font-size: 10px !important;
+  }
+
+  .partners {
+    height: 350px !important;
+  }
+
+  .ju {
+    margin-top: 300px;
+  }
+
+  .partn {
+    height: auto !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 205px !important;
   }
 }
 
