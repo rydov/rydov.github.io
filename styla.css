@@ -291,31 +291,31 @@ nav {
   }
 
   .resume {
-    font-size: 13px !important;
-  }
-
-  .menu {
-    margin-right: 30px;
+    font-size: 15px !important;
   }
 
   .logo a {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   nav ul li a {
     padding: 0px 10px 0px 10px !important;
-    font-size: 13px !important;
+    font-size: 15px !important;
   }
 
   .resume {
     margin-right: 10px;
   }
 
+  .menu {
+    margin-top: 5px;
+  }
+
   .content h2 {
-    font-size: 17px !important;
+    font-size: 25px !important;
   }
   .content h1 {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 
   .content {
@@ -323,12 +323,12 @@ nav {
   }
 
   .about h2 {
-    font-size: 15px !important;
-    width: 400px;
+    font-size: 23px !important;
+    width: 450px !important;
   }
 
   .nama {
-    margin-top: 25px !important;
+    margin-top: 40px !important;
   }
 
   .tentang {
@@ -451,23 +451,27 @@ svg {
 
 @media screen and (max-width: 560px) {
   svg {
-    width: 30px;
-    margin-top: 20px;
+    width: 45px;
+    margin-top: 50px;
     margin-left: 20px;
   }
 
   .nama p {
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
 
   .checkout {
-    margin-left: 75px !important;
-    margin-top: -200px !important;
+    margin-left: 85px !important;
+    margin-top: 30px !important;
+  }
+
+  .tentang {
+    margin-left: 10px !important;
   }
 
   .checkout a {
-    padding: 10px !important;
-    font-size: 13px;
+    padding: 15px !important;
+    font-size: 15px;
   }
 }
 
@@ -489,7 +493,9 @@ svg {
 
 @media screen and (max-width: 560px) {
   .aboutme {
-    margin-top: -100px !important;
+    margin-top: 20px !important;
+
+    height: auto !important;
   }
 
   .content {
@@ -543,7 +549,7 @@ svg {
 }
 
 .aboutme {
-  height: 600px;
+  height: auto;
   margin-top: 50px;
 }
 
@@ -561,11 +567,11 @@ svg {
 
 @media screen and (max-width: 560px) {
   .judul h4 {
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
 
   .title h2 {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 
   .statment {
@@ -580,16 +586,15 @@ svg {
   }
 
   .saya p {
-    font-size: 13px !important;
+    font-size: 20px !important;
   }
 
   .isi {
     justify-content: center;
-    font-size: 15px !important;
   }
 
   .levell {
-    font-size: 13px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -854,12 +859,6 @@ button:hover {
   transition: 1s;
 }
 
-@media screen and (max-width: 560px) {
-  .ju {
-    margin-top: 500px;
-  }
-}
-
 .partn .nama {
   border-top: 1px solid turquoise;
   height: 40px;
@@ -897,10 +896,6 @@ canvas {
     height: 350px !important;
   }
 
-  .ju {
-    margin-top: 200px !important;
-  }
-
   .partn {
     height: auto !important;
     margin-left: 10px;
@@ -933,4 +928,138 @@ canvas {
 
 .partner {
   white-space: nowrap;
+}
+
+.projek {
+  color: #929aab;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.image {
+  width: 1000px;
+  margin-left: 20px;
+}
+.image2 {
+  width: 1000px;
+  margin-right: 20px;
+}
+
+.visit {
+  font-size: 15px;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.visit a {
+  color: turquoise;
+}
+
+.visit a p {
+  width: 100px;
+  border: 1px solid turquoise;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.visit a p:hover {
+  box-shadow: 1px 1px #d3d6db;
+  transition: 0.7s;
+  padding: 4px;
+}
+
+@media screen and (max-width: 560px) {
+  .projek {
+    display: block;
+  }
+
+  .projek .image,
+  .image2 {
+    width: 500px !important;
+    height: 200px !important;
+    margin-left: 20px !important;
+  }
+
+  .isipro {
+    width: 500px !important;
+    margin-top: 120px !important;
+  }
+
+  .projek {
+    border: 1px solid turquoise;
+    height: 680px !important;
+    width: 540px !important;
+    margin-left: 10px !important;
+    border-radius: 10px;
+  }
+
+  .projek:hover {
+    border: 1px solid white;
+    transition: 0.7s;
+    border-radius: 20px;
+  }
+
+  .isipro {
+    margin-left: 20px !important;
+  }
+
+  .projek img {
+    margin-left: -70px !important;
+    rotate: calc(-3deg);
+  }
+  .projek img:hover {
+    margin-left: 0px !important;
+    rotate: calc(0deg);
+    transition: 1s;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .isipro p {
+    font-size: 17px !important;
+  }
+
+  .image,
+  .projek #pro {
+    margin-top: 30px !important;
+  }
+
+  #pro {
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+  }
+}
+
+.projek .image img {
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 7px 7px #929aab;
+}
+.projek .image2 img {
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 7px 7px #929aab;
+}
+
+.isipro {
+  width: 1000px;
+  margin-left: 25px;
+}
+
+.isipro .subj {
+  font-size: 25px;
+  color: #d3d6db;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-top: 50px;
 }
