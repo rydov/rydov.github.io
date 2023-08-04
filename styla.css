@@ -247,12 +247,16 @@ body {
   float: left;
 }
 
+.con {
+  margin-top: 10%;
+}
+
 .logo h3 {
   text-align: center;
 }
 
 .container {
-  width: 1100px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
@@ -308,7 +312,11 @@ nav {
   }
 
   .menu {
-    margin-top: 5px;
+    margin-top: 3%;
+  }
+
+  .con {
+    margin-top: 40%;
   }
 
   .content h2 {
@@ -323,8 +331,16 @@ nav {
   }
 
   .about h2 {
-    font-size: 20px !important;
-    width: 450px !important;
+    font-size: 15px !important;
+    width: 70% !important;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .about {
+    width: 100% !important;
   }
 
   .nama {
@@ -451,7 +467,7 @@ svg {
 
 @media screen and (max-width: 560px) {
   svg {
-    width: 45px;
+    width: 35px;
     margin-top: 50px;
     margin-left: 20px;
   }
@@ -462,7 +478,6 @@ svg {
 
   .checkout {
     margin-left: 85px !important;
-    margin-top: 30px !important;
   }
 
   .tentang {
@@ -489,33 +504,6 @@ svg {
   height: 30px;
   margin-top: 450px;
   display: flex;
-}
-
-@media screen and (max-width: 560px) {
-  .aboutme {
-    margin-top: 20px !important;
-
-    height: auto !important;
-  }
-
-  .content {
-    width: auto;
-  }
-
-  .tentang {
-    width: auto;
-  }
-
-  .about {
-    width: auto;
-  }
-
-  .email {
-    rotate: inherit;
-    height: inherit;
-    margin-top: 0px;
-    border: 1px solid white;
-  }
 }
 
 .email p {
@@ -570,6 +558,14 @@ svg {
     font-size: 25px !important;
   }
 
+  .aboutme {
+    margin-top: 30% !important;
+  }
+
+  .ju {
+    margin-top: 40%;
+  }
+
   .title h2 {
     font-size: 30px !important;
   }
@@ -581,12 +577,8 @@ svg {
 
   .saya {
     margin: 10px;
-    width: 540px;
+    width: 95%;
     text-align: center;
-  }
-
-  .saya p {
-    font-size: 20px !important;
   }
 
   .isi {
@@ -656,189 +648,6 @@ svg {
 
 /* contact */
 
-.con {
-  color: #d3d6db;
-  margin-bottom: 20px;
-  margin-top: 50px;
-  margin-bottom: 150px;
-}
-
-.namad {
-  margin-right: 50px;
-  margin-left: -20px;
-}
-
-input {
-  padding: 5px;
-  width: 275px;
-  background-color: transparent;
-  border: 1px solid #929aab;
-  color: white;
-  margin-top: 5px;
-}
-
-input:hover {
-  outline: 1px solid turquoise;
-}
-
-@media screen and (max-width: 560px) {
-  .foremail,
-  .pesan {
-    margin-left: 10px !important;
-  }
-
-  .con {
-    font-size: 13px !important;
-  }
-
-  .inputnama {
-    align-items: normal;
-    justify-content: inherit !important;
-  }
-
-  .namad {
-    margin-right: 20px !important;
-    margin-left: 10px !important;
-  }
-
-  input {
-    width: 248px;
-  }
-
-  .foremail input {
-    width: 528px !important;
-  }
-
-  button {
-    margin-left: 10px !important;
-    padding: 7px !important;
-  }
-
-  textarea {
-    width: 528px;
-  }
-}
-
-.inputnama {
-  display: flex;
-  width: 100% auto;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.foremail {
-  margin-left: 350px;
-  margin-top: 20px;
-}
-
-.foremail input {
-  width: 615px;
-}
-
-.pesan {
-  margin-left: 350px;
-  margin-top: 20px;
-}
-
-textarea {
-  background-color: transparent;
-  border: 1px solid #929aab;
-  padding: 5px;
-  color: white;
-  margin-top: 5px;
-}
-
-button {
-  margin-left: 350px;
-  margin-top: 10px;
-  padding: 10px;
-  width: 100px;
-  background-color: #0d132a;
-  border: 1px solid #929aab;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover {
-  padding: 8px;
-  width: 90px;
-  transition: 0.7s;
-  text-shadow: 1px 1px turquoise;
-  border: 1px solid turquoise;
-}
-
-.ju {
-  margin-top: 50px;
-}
-
-/* 
-.icon {
-  margin-left: 40px;
-  height: 200px;
-}
-
-.icon p:hover {
-  text-shadow: 2px 2px red;
-}
-
-.icon svg:hover {
-  fill: #36d1c4;
-}
-
-.contact {
-  display: flex;
-  height: 550px;
-}
-
-.con {
-  margin-top: 50px;
-}
-
-.con .title h2 {
-  margin-bottom: -20px;
-}
-
-.wa {
-  text-decoration: none;
-  font-size: 17px;
-  color: #d3d6db;
-  margin-left: -5px;
-}
-
-.ig {
-  text-decoration: none;
-  font-size: 17px;
-  color: #d3d6db;
-}
-
-.icon svg {
-  fill: #929aab;
-}
-
-.eml {
-  float: right;
-  margin-right: 100px;
-  width: 60px;
-}
-
-.icon a {
-  text-decoration: none;
-}
-
-.emel {
-  text-decoration: none;
-  font-size: 17px;
-  color: #d3d6db;
-}
-
-.git {
-  margin-left: px;
-  text-decoration: none;
-  font-size: 17px;
-  color: #d3d6db;
-} */
-
 .partner {
   display: flex;
   margin-top: 40px;
@@ -902,6 +711,65 @@ canvas {
     margin-right: 10px;
     width: 205px !important;
   }
+
+  .drop svg {
+    height: 15px;
+    margin-left: 22%;
+    margin-top: 0px;
+  }
+}
+
+form {
+  width: 100%;
+  margin-bottom: 5%;
+  color: white;
+  margin-top: 5%;
+}
+
+form input {
+  padding: 7px;
+  background-color: transparent;
+  border: 1px solid turquoise;
+  color: white;
+}
+
+.inputnama {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.namad {
+  margin-right: 2%;
+}
+
+.namab {
+  margin-left: 2%;
+}
+
+.foremail {
+  margin-left: 4%;
+}
+
+.pesan {
+  margin-left: 4%;
+}
+
+.pesan textarea {
+  width: 92%;
+  padding: 10px 10px 5px 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid turquoise;
+}
+
+.submit {
+  width: 20%;
+  margin-left: 4%;
+}
+
+.foremail input {
+  width: 92%;
 }
 
 .ry {
@@ -972,27 +840,39 @@ canvas {
   padding: 4px;
 }
 
+.drop {
+  display: none;
+}
+
 @media screen and (max-width: 560px) {
   .projek {
     display: block;
   }
 
+  .drop {
+    display: flex;
+  }
+
+  nav ul li a {
+    border: none;
+  }
+
   .projek .image,
   .image2 {
-    width: 500px !important;
+    width: 90% !important;
     height: 200px !important;
     margin-left: 20px !important;
   }
 
   .isipro {
-    width: 500px !important;
-    margin-top: 120px !important;
+    width: 90% !important;
+    margin-top: 30% !important;
   }
 
   .projek {
     border: 1px solid turquoise;
     height: 680px !important;
-    width: 540px !important;
+    width: 95% !important;
     margin-left: 9px !important;
     border-radius: 10px;
   }
@@ -1001,6 +881,8 @@ canvas {
     border: 1px solid white;
     transition: 0.7s;
     border-radius: 20px;
+    filter: blur(0px);
+    transition: 1s;
   }
 
   .isipro {
@@ -1015,10 +897,12 @@ canvas {
     margin-left: 0px !important;
     rotate: calc(0deg);
     transition: 1s;
+    filter: blur(0px);
   }
 
   .project {
-    width: 100%;
+    width: 100% !important;
+    margin-top: 30% !important;
   }
 
   .isipro p {
@@ -1034,23 +918,33 @@ canvas {
     margin-top: 0px !important;
     margin-bottom: 20px;
   }
+
+  .drop svg {
+    fill: turquoise;
+    width: 30%;
+  }
+
+  .drop .d-up {
+    display: none;
+    fill: white;
+  }
 }
 
 .projek .image img {
   width: 100%;
   border-radius: 10px;
   height: 300px;
-  box-shadow: 7px 7px #929aab;
+  filter: drop-shadow(2px 2px 2px white);
 }
 .projek .image2 img {
   width: 100%;
   border-radius: 10px;
   height: 300px;
-  box-shadow: 7px 7px #929aab;
+  filter: drop-shadow(2px 2px 2px white);
 }
 
 .isipro {
-  width: 1000px;
+  width: 100%;
   margin-left: 25px;
 }
 
