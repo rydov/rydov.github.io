@@ -438,7 +438,7 @@ nav ul li a:hover {
   color: #929aab;
 }
 
-svg:hover {
+.info a svg:hover {
   fill: turquoise;
 }
 
